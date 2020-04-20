@@ -1,0 +1,85 @@
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#brand-tittle{
+  font-size: 1.5em;
+}
+
+#page_heading {
+   font-size: 2em;
+}
+
+#header-nav, #page-text, #collapsable-nav {
+    background-color: #AAAAAA;
+}
+
+#brand-tittle {
+    color:black;
+}
+
+#page-text, #page-text-section{
+    margin:0 auto;
+}
+
+#page-text {
+    width: 95%;
+}
+
+#page-text-section {
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    margin:0 auto;
+}
+
+section {
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+/* This is for larger/medium devices - DESKTOP & TABLETS */
+@media (min-width: 1200px) {
+    .container {
+        float: left!important;
+    }
+
+    .row {
+      width: 100%;
+      padding: 0;
+      float: none;
+    }
+
+     #page-text {
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+}
+
+/* This is the size of MOBILE-VIEW ( visible-xs ) */
+@media (max-width: 769px) {
+
+    #collapsable-nav {
+        background-color: #EEEEEE;
+    }
+
+    .row {
+      width: 100%;
+      margin:0 auto;
+    }
+
+    #page-text {
+        width: 75%;
+        margin:0 auto;
+    }
+
+    #page-text-section {
+        width: 100%;
+        margin:0 auto;
+    }
+}
