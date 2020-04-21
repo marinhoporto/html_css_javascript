@@ -1,0 +1,91 @@
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#brand-tittle{
+    font-size: 1.5em;
+}
+
+#page_heading {
+    font-size: 2em;
+}
+
+#header-nav, #page-text, #collapsable-nav {
+    background-color: #000066;
+    border-width: 0;
+}
+
+#brand-tittle, #page_heading {
+    color:#FFFFFF;
+}
+
+#page-text, #page-text-section{
+    margin:0 auto;
+}
+
+#page-text {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#page-text-section {
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    margin:0 auto;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    background-color: #206020;
+}
+
+section {
+    background-color: #7fa046;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.menu-item, body {
+    background-color: #206020;
+    margin-bottom: 20px;
+}
+
+.menu-item-description {  
+    white-space: pre-line;
+}
+
+.col-menu-item {
+    font-size: 4vw;
+
+}
+
+/* This is for larger/medium devices - DESKTOP & TABLETS */
+@media (min-width: 1200px) {
+    .container {
+        float: left!important;
+    }
+}
+
+/* This is the size of MOBILE-VIEW ( visible-xs ) */
+@media (max-width: 769px) {
+
+    #collapsable-nav {
+        background-color: #e6e6e6;
+    }
+
+    #page-text {
+        width: 95%;
+        margin:0 auto;
+    }
+
+    #page-text-section {
+        width: 100%;
+        margin:0 auto;
+    }
+}
